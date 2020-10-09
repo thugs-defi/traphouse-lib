@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap/pancake-swap-lib",
+  "name": "@thugs-defi/traphouse-lib",
   "version": "0.0.1",
-  "description": "Pancake Swap Lib",
+  "description": "Traphouse BSC Libs",
   "files": [
     "contracts",
     "!contracts/test"
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:pancakeswap/pancake-swap-lib.git"
+    "url": "ssh://git@github.com:thugs-defi/traphouse-lib.git"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"

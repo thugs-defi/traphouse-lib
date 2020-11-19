@@ -4,7 +4,7 @@ pragma solidity >=0.4.0;
 
 import '../../access/Ownable.sol';
 import '../../GSN/Context.sol';
-import './IBEP20.sol';
+import './IBEP20NoTransfer.sol';
 import '../../math/SafeMath.sol';
 import '../../utils/Address.sol';
 
@@ -32,7 +32,7 @@ import '../../utils/Address.sol';
  * functions have been added to mitigate the well-known issues around setting
  * allowances. See {IBEP20-approve}.
  */
-contract BEP20 is Context, IBEP20, Ownable {
+contract BEP20NoTransfer is Context, IBEP20NoTransfer, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
